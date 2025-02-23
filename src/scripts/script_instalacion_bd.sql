@@ -8,4 +8,10 @@ create table project(
     start_date date
 );
 
-insert into project (name, start_date) values ('Portfolio personal',current_date());
+insert into project (name, start_date) values
+	('Portfolio personal',current_date()),
+    ('Proyecto Backend Spring Boot',current_date()),
+    ('Proyecto Frontend Angular',current_date()),
+    ('Proyecto BBDD MySQL',current_date());
+
+select * from project;
